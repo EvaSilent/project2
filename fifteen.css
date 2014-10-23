@@ -40,7 +40,7 @@ h1 {
 
 /* This class should be applied to each of the 15 puzzle pieces. */
 .puzzlepiece {
-	background-image: url("info2181.JPEG");
+	background-image: url("info2181.jpeg");
 	background-repeat: no-repeat;
 	border: 2px solid black;
 	cursor: default;

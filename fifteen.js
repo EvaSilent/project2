@@ -1,5 +1,6 @@
 var puzzle = [];
-var backPiece = [];	
+var backPiece = [];
+	
 	
 	window.onload = function() {
 	    puzzle =  $$("#puzzlearea div");
@@ -26,7 +27,6 @@ var backPiece = [];
 	
 	   puzzle = $$("#puzzlearea div"); // "reassign" the array puzzle with the new div added
 	   $("shufflebutton").observe('click', shufflePuzzle);
-	  
 	   movepiece();
 	};
 	
@@ -48,11 +48,10 @@ var backPiece = [];
 	var regularP = function(p){
 	      p.addClassName("puzzlepiece");
 	      p.style.border = "2px solid black";
-	      p.style.backgroundImage = "url(info2181.JPEG)";
+	      p.style.backgroundImage = "url(info2181.jpeg)";
 	      p.style.backgroundSize = "400px 400px";
 	};
-	// timer
-
+	
 	//the shuffluePuzzle function is used to shullfe each puzzle on the page.
 	function shufflePuzzle(){
 		var numArray = [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15];
@@ -74,7 +73,7 @@ var backPiece = [];
 	    }
 	  	mopiece();
 	   }
-
+	
 	//this function places the class movablepiece
 	var movePA = function(piece){
 	  puzzle[piece].addClassName("movablepiece");
